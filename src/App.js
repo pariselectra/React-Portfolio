@@ -64,7 +64,7 @@ function App() {
         <section class="position">
             <section>
                 <a href="https://github.com/pariselectra/Group_9_Project_2"><img class="workimg" src={project1} alt="filler"></img></a>
-                <h6>Chose Your Own Adventure</h6>
+                <h6>Choose Your Own Adventure</h6>
             </section>
             <section>
                 <a href="https://github.com/pariselectra/Accessibility-with-CSS-HTML"><img class="workimg projectTwoImg" src={project2} alt="filler"></img></a>
