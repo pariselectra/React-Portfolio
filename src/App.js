@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import knockoutimage from './knockout.PNG'
 import project1 from "./project1.png"
 import project2 from "./project2.png"
@@ -22,21 +21,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
       <nav className="navbar">
-        <h1>Paris Bland - Portfolio</h1>
         <ul class="navbar">
             <li class="navmargin"><a href="#aboutme">About Me</a></li>
             <li class="navmargin"><a href="#work">Work</a></li>
@@ -50,19 +36,25 @@ function App() {
         <section class="about-me-format">
             <div>
             <h2 id="aboutme">About Me</h2>
+            <h1>PARIS BLAND</h1>
             <h4>Full Stack Developer</h4>
             </div>
             <p> Languages: <strong>HTML, CSS, JavaScript, Python, Java, SQL, C, C# and C++ </strong> 
               
             Skills: <strong>Bootstrap, APIs, JQuery, JSON, AJAX, Node, ES6, Express, Progressive Web Apps, React, and MERN Stack.</strong>
-            
+            <br></br>
+            <br></br>
             From Dallas, TX. Based in Austin, TX.
             
             Sales and Management Background.
             </p>
         </section>
-    <div>
-        <img className="profileimg" src={knockoutimage} alt="profile image"></img>
+        <div className="container">
+            <h3 className="outterContainer">container</h3>
+            <h3 className="smallerContainer">container</h3>
+            <img className="profileimg" src={knockoutimage} alt="profile"></img>
+            <h3 className="line">c</h3>
+            <h3 className="littleline"></h3>
         </div>  
     </div>
 
@@ -71,52 +63,52 @@ function App() {
         <h5>Check out some of my projects</h5>
         <section class="position">
             <section>
-                <a href="https://github.com/pariselectra/Group_9_Project_2"><img class="workimg" src={project1} alt="filler image"></img></a>
+                <a href="https://github.com/pariselectra/Group_9_Project_2"><img class="workimg" src={project1} alt="filler"></img></a>
                 <h6>Chose Your Own Adventure</h6>
             </section>
             <section>
-                <a href="https://github.com/pariselectra/Accessibility-with-CSS-HTML"><img class="workimg projectTwoImg" src={project2} alt="filler image"></img></a>
+                <a href="https://github.com/pariselectra/Accessibility-with-CSS-HTML"><img class="workimg projectTwoImg" src={project2} alt="filler"></img></a>
                 <h6>Accessibility</h6>
             </section>
             <section>
-                <a href="https://pariselectra.github.io/JavaScript-Window-Edit/"><img class="workimg" src={project3} alt="filler image"></img></a>
+                <a href="https://pariselectra.github.io/JavaScript-Window-Edit/"><img class="workimg" src={project3} alt="filler"></img></a>
                 <h6>JS Window</h6>
             </section>
             <section>
-                <a href="https://github.com/pariselectra/Web-APIs-Timed-Quiz"><img class="workimg" src={project4} alt="filler image"></img></a>
+                <a href="https://github.com/pariselectra/Web-APIs-Timed-Quiz"><img class="workimg" src={project4} alt="filler"></img></a>
                 <h6>API Quiz</h6>
             </section>
             <section>
-                <a href="https://github.com/pariselectra/Workday-Calendar-Schedule"><img class="workimg" src={project5} alt="filler image"></img></a>
+                <a href="https://github.com/pariselectra/Workday-Calendar-Schedule"><img class="workimg" src={project5} alt="filler"></img></a>
                 <h6>Local Storage Cal</h6>
             </section>
             <section>
-                <a href="https://github.com/pariselectra/Five-Day-Weather-Forecast"><img class="workimg" src={project6} alt="filler image"></img></a>
+                <a href="https://github.com/pariselectra/Five-Day-Weather-Forecast"><img class="workimg" src={project6} alt="filler"></img></a>
                 <h6>Weather API</h6>
             </section>
             <section>
-                <a href="https://github.com/pariselectra/Professional-README-Generator"><img class="workimg" src={project7} alt="filler image"></img></a>
+                <a href="https://github.com/pariselectra/Professional-README-Generator"><img class="workimg" src={project7} alt="filler"></img></a>
                 <h6>Generate README</h6>
             </section>
             <section>
-                <a href="https://github.com/pariselectra/Employee-List-Generator"><img class="workimg" src={project8} alt="filler image"></img></a>
+                <a href="https://github.com/pariselectra/Employee-List-Generator"><img class="workimg" src={project8} alt="filler"></img></a>
                 <h6>Employee Lister</h6>
             </section>
             <section>
-                <a href="https://github.com/pariselectra/SQL-Employee-Tracker"><img class="workimg" src={project9} alt="filler image"></img></a>
+                <a href="https://github.com/pariselectra/SQL-Employee-Tracker"><img class="workimg" src={project9} alt="filler"></img></a>
                 <h6>Employee Registry</h6>
             </section>
             <section>
-                <a href="https://github.com/pariselectra/ORM-eCommerce-Backend"><img class="workimg" src={project10} alt="filler image"></img></a>
+                <a href="https://github.com/pariselectra/ORM-eCommerce-Backend"><img class="workimg" src={project10} alt="filler"></img></a>
                 <h6>ORM eCommerce</h6>
             </section>
             <section>
-                <a href="https://github.com/pariselectra/Express-Note-Taker"><img class="workimg" src={project12} alt="filler image"></img></a>
+                <a href="https://github.com/pariselectra/Express-Note-Taker"><img class="workimg" src={project12} alt="filler"></img></a>
                 <h6>Express Note Taker</h6>
             </section>
             
             <section>
-                <a href="https://github.com/pariselectra"><img class="workimg" src={project1} alt="filler image"></img></a>
+                <a href="https://github.com/pariselectra"><img class="workimg" src={project1} alt="filler"></img></a>
                 <h6>Project 13</h6>
             </section>
         </section>
