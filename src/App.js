@@ -23,11 +23,11 @@ function App() {
       <header className="App-header">
       </header>
       <nav className="navbar">
-        <ul class="navbar">
-            <li class="navmargin"><a href="#aboutme">About Me</a></li>
-            <li class="navmargin"><a href="#work">Work</a></li>
-            <li class="navmargin"><a href="#contactme">Contact Me</a></li>
-            <li class="navmargin"><a href="#resume">Resume</a></li>
+        <ul className="navUl">
+            <li className="navmargin"><a href="#aboutme" id="aboutMeLink">About Me</a></li>
+            <li className="navmargin"><a href="#work" id="workLink">Work</a></li>
+            <li className="navmargin"><a href="#contactme" id="contactMeLink">Contact Me</a></li>
+            <li className="navmargin"><a href="#resume" id="resumeLink">Resume</a></li>
         </ul>
     </nav>
 
@@ -39,8 +39,8 @@ function App() {
             <h1>PARIS BLAND</h1>
             <h4>Full Stack Developer</h4>
             </div>
-            <p> Languages: <strong>HTML, CSS, JavaScript, Python, Java, SQL, C, C# and C++ </strong> 
-              
+            <p> Languages: <strong>HTML, CSS, JavaScript, SQL </strong> 
+              <br></br>
             Skills: <strong>Bootstrap, APIs, JQuery, JSON, AJAX, Node, ES6, Express, Progressive Web Apps, React, and MERN Stack.</strong>
             <br></br>
             <br></br>
