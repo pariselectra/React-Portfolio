@@ -11,7 +11,7 @@ import project9 from "./project9.png"
 import project10 from "./project10.png"
 // import project11 from "./project11.png"
 import project12 from "./project12.png"
-// import project13 from "./project13.png"
+import project13 from "./project13.png"
 import github from "./Github.png"
 import mail from "./mail.png"
 import linkedin from "./LinkedIn.png"
@@ -62,54 +62,162 @@ function App() {
         <h2 id="work">Work</h2>
         <h5>Check out some of my projects</h5>
         <section class="position">
-            <section>
-                <a href="https://github.com/pariselectra/Group_9_Project_2"><img class="workimg" src={project1} alt="filler"></img></a>
+            <section className= "flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
+                <a href="Choose Your Own Adventure"><img class="workimg" src={project1} alt="filler"></img></a>
                 <h6>Choose Your Own Adventure</h6>
+                </div>
+                <div class="flip-card-back">
+                    <h5 className="cardBackHeader">Choose Your Own Adventure</h5>
+                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button><a className="buttonLink" href="https://github.com/pariselectra/Group_9_Project_2">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
-            <section>
-                <a href="https://github.com/pariselectra/Accessibility-with-CSS-HTML"><img class="workimg projectTwoImg" src={project2} alt="filler"></img></a>
+            <section className= "flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
+                <a href="https://github.com/pariselectra/Accessibility-with-CSS-HTML"><img class="workimg" src={project2} alt="filler"></img></a>
                 <h6>Accessibility</h6>
+                </div>
+                <div class="flip-card-back">
+                    <h5 className="cardBackHeader">Accessibility</h5>
+                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button><a className="buttonLink" href="https://github.com/pariselectra/Accessibility-with-CSS-HTML">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
-            <section>
+            <section className= "flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
                 <a href="https://pariselectra.github.io/JavaScript-Window-Edit/"><img class="workimg" src={project3} alt="filler"></img></a>
                 <h6>JS Window</h6>
+                </div>
+                <div class="flip-card-back">
+                    <h5 className="cardBackHeader">JS Window</h5>
+                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button><a className="buttonLink" href="https://pariselectra.github.io/JavaScript-Window-Edit/">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
-            <section>
+            <section className= "flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
                 <a href="https://github.com/pariselectra/Web-APIs-Timed-Quiz"><img class="workimg" src={project4} alt="filler"></img></a>
                 <h6>API Quiz</h6>
+                </div>
+                <div class="flip-card-back">
+                    <h5 className="cardBackHeader">API Quiz</h5>
+                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button><a className="buttonLink" href="https://github.com/pariselectra/Web-APIs-Timed-Quiz">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
-            <section>
+            <section className= "flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
                 <a href="https://github.com/pariselectra/Workday-Calendar-Schedule"><img class="workimg" src={project5} alt="filler"></img></a>
                 <h6>Local Storage Cal</h6>
+                </div>
+                <div class="flip-card-back">
+                    <h5 className="cardBackHeader">Local Storage Cal</h5>
+                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button><a className="buttonLink" href="https://github.com/pariselectra/Workday-Calendar-Schedule">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
-            <section>
+            <section className= "flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
                 <a href="https://github.com/pariselectra/Five-Day-Weather-Forecast"><img class="workimg" src={project6} alt="filler"></img></a>
                 <h6>Weather API</h6>
+                </div>
+                <div class="flip-card-back">
+                    <h5 className="cardBackHeader">Weather API</h5>
+                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button><a className="buttonLink" href="https://github.com/pariselectra/Five-Day-Weather-Forecast">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
-            <section>
+            <section className= "flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
                 <a href="https://github.com/pariselectra/Professional-README-Generator"><img class="workimg" src={project7} alt="filler"></img></a>
                 <h6>Generate README</h6>
+                </div>
+                <div class="flip-card-back">
+                    <h5 className="cardBackHeader">Generate README</h5>
+                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button><a className="buttonLink" href="https://github.com/pariselectra/Professional-README-Generator">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
-            <section>
+            <section className= "flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
                 <a href="https://github.com/pariselectra/Employee-List-Generator"><img class="workimg" src={project8} alt="filler"></img></a>
                 <h6>Employee Lister</h6>
+                </div>
+                <div class="flip-card-back">
+                    <h5 className="cardBackHeader">Employee Lister</h5>
+                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button><a className="buttonLink" href="https://github.com/pariselectra/Employee-List-Generator">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
-            <section>
+            <section className= "flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
                 <a href="https://github.com/pariselectra/SQL-Employee-Tracker"><img class="workimg" src={project9} alt="filler"></img></a>
                 <h6>Employee Registry</h6>
+                </div>
+                <div class="flip-card-back">
+                    <h5 className="cardBackHeader">Employee Registry</h5>
+                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button><a className="buttonLink" href="https://github.com/pariselectra/SQL-Employee-Tracker">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
-            <section>
+            <section className= "flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
                 <a href="https://github.com/pariselectra/ORM-eCommerce-Backend"><img class="workimg" src={project10} alt="filler"></img></a>
                 <h6>ORM eCommerce</h6>
+                </div>
+                <div class="flip-card-back">
+                    <h5 className="cardBackHeader">ORM eCommerce</h5>
+                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button><a className="buttonLink" href="https://github.com/pariselectra/ORM-eCommerce-Backend">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
-            <section>
+            <section className= "flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
                 <a href="https://github.com/pariselectra/Express-Note-Taker"><img class="workimg" src={project12} alt="filler"></img></a>
                 <h6>Express Note Taker</h6>
+                </div>
+                <div class="flip-card-back">
+                    <h5 className="cardBackHeader">Express Note Taker</h5>
+                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button><a className="buttonLink" href="https://github.com/pariselectra/Express-Note-Taker">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
             
-            <section>
-                <a href="https://github.com/pariselectra"><img class="workimg" src={project1} alt="filler"></img></a>
-                <h6>Project 13</h6>
+            <section className= "flip-card">
+                <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                    <a href="https://github.com/pariselectra"><img class="workimg" src={project13} alt="filler"></img></a>
+                    <h6>Social Network API</h6>
+                    </div>
+                    <div class="flip-card-back">
+                        <h5 className="cardBackHeader">Social Network API</h5>
+                        <h5 className="cardBackTextStyling">This is a MongoDB (noSQL) based database that provides a model for what a social media networking backend database. I structured this MongoDB database to house a list of users, their thoughts, and their friends within the application.</h5>
+                        <button><a className="buttonLink" href="https://github.com/pariselectra/Social-Network-API">GITHUB</a></button>
+                    </div>
+                </div>
             </section>
         </section>
     </section>

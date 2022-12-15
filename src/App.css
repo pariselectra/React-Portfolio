@@ -51,6 +51,21 @@ h6 {
   margin-bottom: -10px;
 }
 
+button {
+  background-color: #f6f6e9;
+  color: #00072B;
+  width: 120px;
+  height: 40px;
+  border: solid 4px #7d9b76;
+}
+
+.buttonLink {
+  background-color: #f6f6e9;
+  color: #00072B;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
 .navbar {
   
 }
@@ -185,9 +200,6 @@ h6 {
   width: 325px;
   height: 325px;
   /* margin: 30px; */
-  margin-top: 12px;
-  margin-right: 12px;
-  margin-bottom: 12px;
   padding: 10px;
   display: inline-flex;
   border: solid #00072B 4px;
@@ -219,4 +231,63 @@ h6 {
   height: 175px;
   margin-right: 35px;
   display: flex;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 325px;
+  height: 325px;
+  margin-top: 12px;
+  margin-right: 18px;
+  margin-bottom: 12px;
+  padding: 10px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #00072B;
+  margin-bottom: 12px;
+  margin-left: -24px;
+  width: 340px;
+  height: 325px;
+  padding-bottom: 25px;
+  color: #f6f6e9;
+  transform: rotateY(180deg);
+}
+
+.cardBackTextStyling {
+  background-color: #00072B;
+  color: #f6f6e9;
+  padding: 15px;
+  text-align: left;
+}
+
+.cardBackHeader {
+  background-color: #00072B;
+  color: #f6f6e9;
+  font-size: 25px;
 }
