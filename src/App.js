@@ -1,4 +1,5 @@
 import knockoutimage from './knockout.PNG'
+import migrate from './migrate.png'
 import project1 from "./project1.png"
 import project2 from "./project2.png"
 import project3 from "./project3.png"
@@ -61,33 +62,53 @@ function App() {
     <section>
         <h2 id="work">Work</h2>
         <h5>Check out some of my projects</h5>
-        <section class="position">
+            <section className="position">
+
+                <section className= "feature-flip-card">
+                <div className="feature-flip-card-inner">
+                    <div className="feature-flip-card-front">
+                    <a href="https://migrate-abroad.herokuapp.com/"><img class="featureImage" src={migrate} alt="filler"></img></a>
+                    <h6 class= "migrateTitle">Migrate</h6>
+                    </div>
+                    <div class="feature-flip-card-back">
+                        <h5 className="cardBackHeader">Migrate</h5>
+                        <button className="checkItOutButton"><a className="buttonLink" href="https://migrate-abroad.herokuapp.com/">CHECK IT OUT</a></button>
+                        <h5 className="cardBackTextStyling">This was a group collaboration project. Migrate is designed to provide data on countries and their social performance so users can make informed decisions about where in the world to live. This website features select data from the Social Progress Imperative. In addition to country information, we also provide a search bar that allows users to explore countries in different regions and find the best fit for them.</h5>
+                        <button><a className="buttonLink" href="https://github.com/pariselectra/Group_9_Project_2">GITHUB</a></button>
+                        </div>
+                    </div>
+                </section>
+
             <section className= "flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
-                <a href="Choose Your Own Adventure"><img class="workimg" src={project1} alt="filler"></img></a>
+                <a href="https://the-survival-game.herokuapp.com/"><img class="workimg" src={project1} alt="filler"></img></a>
                 <h6>Choose Your Own Adventure</h6>
                 </div>
                 <div class="flip-card-back">
                     <h5 className="cardBackHeader">Choose Your Own Adventure</h5>
-                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button className="checkItOutButton"><a className="buttonLink" href="https://the-survival-game.herokuapp.com/">CHECK IT OUT</a></button>
+                    <h5 className="cardBackTextStyling">This was a group collaboration project. This project is a choose your own adventure game. A user follows a storyline and has the option to select their own destinty within the game. Depending on your selection, you will either live or die in this post apocalyptic storyline.</h5>
                     <button><a className="buttonLink" href="https://github.com/pariselectra/Group_9_Project_2">GITHUB</a></button>
                     </div>
                 </div>
             </section>
+
             <section className= "flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
-                <a href="https://github.com/pariselectra/Accessibility-with-CSS-HTML"><img class="workimg" src={project2} alt="filler"></img></a>
+                <a href="https://pariselectra.github.io/Accessibility-with-CSS-HTML/"><img class="workimg" src={project2} alt="filler"></img></a>
                 <h6>Accessibility</h6>
                 </div>
                 <div class="flip-card-back">
                     <h5 className="cardBackHeader">Accessibility</h5>
-                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button className="checkItOutButton"><a className="buttonLink" href="https://pariselectra.github.io/Accessibility-with-CSS-HTML/">CHECK IT OUT</a></button>
+                    <h5 className="cardBackTextStyling">This project utilizes starter code for a website. I added descriptive HTML elements and alt text. Additionally, I made the site readable for screen readers.</h5>
                     <button><a className="buttonLink" href="https://github.com/pariselectra/Accessibility-with-CSS-HTML">GITHUB</a></button>
                     </div>
                 </div>
             </section>
+
             <section className= "flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
@@ -96,50 +117,58 @@ function App() {
                 </div>
                 <div class="flip-card-back">
                     <h5 className="cardBackHeader">JS Window</h5>
-                    <h5 className="cardBackTextStyling">Description</h5>
-                    <button><a className="buttonLink" href="https://pariselectra.github.io/JavaScript-Window-Edit/">GITHUB</a></button>
+                    <button className="checkItOutButton"><a className="buttonLink" href="https://pariselectra.github.io/JavaScript-Window-Edit/">CHECK IT OUT</a></button>
+                    <h5 className="cardBackTextStyling">This project utilizes window prompts to capture user input choices. The user had the option to decide if they wanted numbers, lowercase letters, uppercase letters, or special characters in their password. The user also had the ability to set the desired length of their password. After they make their selections, a password is generated. </h5>
+                    <button><a className="buttonLink" href="https://github.com/pariselectra/JavaScript-Window-Edit">GITHUB</a></button>
                     </div>
                 </div>
             </section>
+
             <section className= "flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
-                <a href="https://github.com/pariselectra/Web-APIs-Timed-Quiz"><img class="workimg" src={project4} alt="filler"></img></a>
+                <a href="https://pariselectra.github.io/Web-APIs-Timed-Quiz/"><img class="workimg" src={project4} alt="filler"></img></a>
                 <h6>API Quiz</h6>
                 </div>
                 <div class="flip-card-back">
                     <h5 className="cardBackHeader">API Quiz</h5>
-                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button className="checkItOutButton"><a className="buttonLink" href="https://pariselectra.github.io/Web-APIs-Timed-Quiz/">CHECK IT OUT</a></button>
+                    <h5 className="cardBackTextStyling">This project incorporate the usage of Web APIs to link HTML, CSS, and Javascript into one functional webpage. A user is prompted through a series of questions to complete a quiz. The application indicates if an answer is correct or incorrect upon selection. After submission, the user has the ability to enter their initials and save their score.</h5>
                     <button><a className="buttonLink" href="https://github.com/pariselectra/Web-APIs-Timed-Quiz">GITHUB</a></button>
                     </div>
                 </div>
             </section>
+
             <section className= "flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
-                <a href="https://github.com/pariselectra/Workday-Calendar-Schedule"><img class="workimg" src={project5} alt="filler"></img></a>
+                <a href="https://pariselectra.github.io/Workday-Calendar-Schedule/"><img class="workimg" src={project5} alt="filler"></img></a>
                 <h6>Local Storage Cal</h6>
                 </div>
                 <div class="flip-card-back">
                     <h5 className="cardBackHeader">Local Storage Cal</h5>
-                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button className="checkItOutButton"><a className="buttonLink" href="https://pariselectra.github.io/Workday-Calendar-Schedule/">CHECK IT OUT</a></button>
+                    <h5 className="cardBackTextStyling">This website utilizes local storage. I started this challenge with CSS and HTML code already written out. I appended Javascript elements to the existing framework to make a working calendar. The calendar has a functional "save" button, that saves a user's entry locally. Even if a user closes out of the browser, their entry is saved on the page through local storage.</h5>
                     <button><a className="buttonLink" href="https://github.com/pariselectra/Workday-Calendar-Schedule">GITHUB</a></button>
                     </div>
                 </div>
             </section>
+
             <section className= "flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
-                <a href="https://github.com/pariselectra/Five-Day-Weather-Forecast"><img class="workimg" src={project6} alt="filler"></img></a>
+                <a href="https://pariselectra.github.io/Five-Day-Weather-Forecast/"><img class="workimg" src={project6} alt="filler"></img></a>
                 <h6>Weather API</h6>
                 </div>
-                <div class="flip-card-back">
+                <div class="flip-card-back">                    
                     <h5 className="cardBackHeader">Weather API</h5>
-                    <h5 className="cardBackTextStyling">Description</h5>
+                    <button className="checkItOutButton"><a className="buttonLink" href="https://pariselectra.github.io/Five-Day-Weather-Forecast/">CHECK IT OUT</a></button>
+                    <h5 className="cardBackTextStyling">This website utilizes a weather forecast API in order to pull temperature, wind, humidity, and potential forecasts in any given city. Once a user enters their destination of choice, the application will display select information of the weather forecast.</h5>
                     <button><a className="buttonLink" href="https://github.com/pariselectra/Five-Day-Weather-Forecast">GITHUB</a></button>
                     </div>
                 </div>
             </section>
+
             <section className= "flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
@@ -148,11 +177,12 @@ function App() {
                 </div>
                 <div class="flip-card-back">
                     <h5 className="cardBackHeader">Generate README</h5>
-                    <h5 className="cardBackTextStyling">Description</h5>
+                    <h5 className="cardBackTextStyling">This project is designed to automatically create customized README documents for users. This backend node.js application prompts a user to answer specific inputs. Once a user answers, the application generates a markdown document for the user, attractively displaying the user's input.</h5>
                     <button><a className="buttonLink" href="https://github.com/pariselectra/Professional-README-Generator">GITHUB</a></button>
                     </div>
                 </div>
             </section>
+
             <section className= "flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
@@ -161,11 +191,12 @@ function App() {
                 </div>
                 <div class="flip-card-back">
                     <h5 className="cardBackHeader">Employee Lister</h5>
-                    <h5 className="cardBackTextStyling">Description</h5>
+                    <h5 className="cardBackTextStyling">This challenge was centered around object oriented programing. This backend framework allows a user to enter and save employee information. Depending on user selection, the prompts will vary to create customized cards for each employee. This challenge features multiple interacting Javascript pages, and an interactive node framework, and Javascript testing. </h5>
                     <button><a className="buttonLink" href="https://github.com/pariselectra/Employee-List-Generator">GITHUB</a></button>
                     </div>
                 </div>
             </section>
+
             <section className= "flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
@@ -179,6 +210,7 @@ function App() {
                     </div>
                 </div>
             </section>
+
             <section className= "flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
@@ -192,14 +224,16 @@ function App() {
                     </div>
                 </div>
             </section>
+
             <section className= "flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
-                <a href="https://github.com/pariselectra/Express-Note-Taker"><img class="workimg" src={project12} alt="filler"></img></a>
+                <a href="https://express-note-pariselectra.herokuapp.com/notes"><img class="workimg" src={project12} alt="filler"></img></a>
                 <h6>Express Note Taker</h6>
                 </div>
                 <div class="flip-card-back">
                     <h5 className="cardBackHeader">Express Note Taker</h5>
+                    <button className="checkItOutButton"><a className="buttonLink" href="https://express-note-pariselectra.herokuapp.com/notes">CHECK IT OUT</a></button>
                     <h5 className="cardBackTextStyling">To develop this project, I started with some code that was the basic frame of a note taking website. I made the website functional by providing middleware and get routes. This connected the written javascript to the server and pushed the application to correctly deploy javascript functions when prompted with a click on the page.</h5>
                     <button><a className="buttonLink" href="https://github.com/pariselectra/Express-Note-Taker">GITHUB</a></button>
                     </div>

@@ -39,16 +39,14 @@ p {
 
 h6 {
   position: relative;
-  bottom: 45px;
-  left: 78px;
+  bottom: 55px;
+  margin: 0 auto;
   background-color: #f6f6e9;
-  margin: -25px;
   padding: 5px;
   font-size: 16px;
-  width: 220px;
-  border: black solid 2px;
-  text-align: center;
-  margin-bottom: -10px;
+  width: 70%;
+  border: #272727 solid 2px;
+  left: 4.5%
 }
 
 button {
@@ -222,7 +220,7 @@ button {
 .contactflex {
   display: flex;
   width: 100%;
-  justify-content: left;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -233,6 +231,7 @@ button {
   display: flex;
 }
 
+/* FLIP CARD */
 .flip-card {
   background-color: transparent;
   width: 325px;
@@ -277,6 +276,7 @@ button {
   padding-bottom: 25px;
   color: #f6f6e9;
   transform: rotateY(180deg);
+  border: 4px #7d9b76 solid;
 }
 
 .cardBackTextStyling {
@@ -284,10 +284,87 @@ button {
   color: #f6f6e9;
   padding: 15px;
   text-align: left;
+  margin-top: 10px;
 }
 
 .cardBackHeader {
   background-color: #00072B;
   color: #f6f6e9;
   font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.checkItOutButton {
+  margin-top: 25px;
+}
+
+/* FEATURE CARD */
+.featureImage {
+  width: 75vw;
+  height: 23vw;
+  /* margin: 30px; */
+  padding: 10px;
+  display: inline-flex;
+  border: solid #00072B 4px;
+  box-shadow: 5px 10px 8px #00072B;
+}
+
+.featurePosition {
+  display: grid;
+}
+
+.feature-flip-card {
+  background-color: transparent;
+  width: 75vw;
+  height: 23vw;
+  margin-top: 12px;
+  margin-right: 18px;
+  margin-bottom: 12px;
+  padding: 10px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.feature-flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.feature-flip-card:hover .feature-flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.feature-flip-card-front, .feature-flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the back side */
+.feature-flip-card-back {
+  background-color: #00072B;
+  margin-bottom: 12px;
+  margin-left: -18px;
+  width: 75vw;
+  height: 23vw;
+  padding-bottom: 25px;
+  color: #f6f6e9;
+  transform: rotateY(180deg);
+  border: 4px #7d9b76 solid;
+}
+
+.migrateTitle {
+  width: 20%;
+  color: #f6f6e9;
+  background-color: #272727;
+  border: solid 4px #7d9b76;
+  left: 2%;
 }
