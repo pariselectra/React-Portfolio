@@ -1,7 +1,7 @@
 # React-Portfolio
 
 ## Description
-This portfolio uses REACT to showcase my individual projects. I created this portfolio based off of a portfolio I had created prior using CSS and HTML. REACT allows the site to be more responsive. Additionally, I added stylized images to represent each project I created.
+This portfolio uses REACT to showcase my individual projects. I created this portfolio based off of a portfolio I had created prior using CSS and HTML. REACT allows the site to be more responsive. Additionally, I added stylized images to represent each project I created. 
 
 ## Installation
 This site can be accessed live via: https://pariselectra.github.io/React-Portfolio/
