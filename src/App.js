@@ -174,7 +174,7 @@ function App() {
                 </div>
                 <div class="flip-card-back">
                     <h5 className="cardBackHeader">Employee Registry</h5>
-                    <h5 className="cardBackTextStyling">Description</h5>
+                    <h5 className="cardBackTextStyling">In this project, I utilized SQL in order to create a database, and make it accessible through node. Once the database is complete, a user has the option to view an entire registrar of employees. Additionally, the user has the functionality to add departments, roles, and employees. If an employee gets a promption and switches to a different role, the database can easily be updated through node as well.</h5>
                     <button><a className="buttonLink" href="https://github.com/pariselectra/SQL-Employee-Tracker">GITHUB</a></button>
                     </div>
                 </div>
@@ -187,7 +187,7 @@ function App() {
                 </div>
                 <div class="flip-card-back">
                     <h5 className="cardBackHeader">ORM eCommerce</h5>
-                    <h5 className="cardBackTextStyling">Description</h5>
+                    <h5 className="cardBackTextStyling">This project used starter code to build the backend for an ecommerce website. Starting with a database, I used API POST, PUT, and DELETE routes to allow the user to edit information in the database. I also set the parameters for the database models and add associations within the database to describe how the various models interact with each other.</h5>
                     <button><a className="buttonLink" href="https://github.com/pariselectra/ORM-eCommerce-Backend">GITHUB</a></button>
                     </div>
                 </div>
@@ -200,7 +200,7 @@ function App() {
                 </div>
                 <div class="flip-card-back">
                     <h5 className="cardBackHeader">Express Note Taker</h5>
-                    <h5 className="cardBackTextStyling">Description</h5>
+                    <h5 className="cardBackTextStyling">To develop this project, I started with some code that was the basic frame of a note taking website. I made the website functional by providing middleware and get routes. This connected the written javascript to the server and pushed the application to correctly deploy javascript functions when prompted with a click on the page.</h5>
                     <button><a className="buttonLink" href="https://github.com/pariselectra/Express-Note-Taker">GITHUB</a></button>
                     </div>
                 </div>
