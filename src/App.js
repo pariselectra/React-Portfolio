@@ -267,47 +267,7 @@ function App() {
 
     <section>
         <h2 id="resume">Resume</h2>
-        <h3>Education</h3>
-            <p>Parish Episcopal School, Dallas, TX, Class of 2017</p>
-            <p>University of Texas at Austin, Class of 2019</p>
-        <ul>
-            <li>Plan I Honors</li>
-            <li>Churchill Scholar</li>
-            <li>International Relations and Global Studies</li>
-            <li>McCombs School of Business</li>
-        </ul>
-            <p>UT Coding Bootcamp w/ Trilogy Education</p>
-            <ul>
-                <li>September 2022 - December 2022</li>
-                <li>HTML, CSS, Git, JavaScript, Bootstrap, APIs, JQuery, JSON, AJAX, Node, ES6, Express, MySQL, Progressive Web Apps, React, NoSQL, MERN Stack.</li>
-            </ul>
-        <h3>Work History</h3>
-        <p>TabATX</p>
-        <ul>
-            <li><strong>Founder, CEO: October 2017 - March 2020</strong></li>
-            <li>Primary focus was on event planning for Panhellenic groups</li>
-            <li>Acquired a client list worth more than $50,000</li>
-            <li>Acted as a liaison between clients and event venues.</li>
-        </ul>
-        <p>Tuple Labs</p>
-        <ul>
-            <li><strong>Account Executive: June 2019 - June 2020</strong></li>
-            <li>Technology company serving large clients such as Half Price Books</li>
-            <li>Acquired new business accounts within assigned territories</li>
-            <li>Created and maintained sales relationships with clients</li>
-        </ul>
-        <p>Moment Makers LLC</p>
-        <ul>
-            <li><strong>Co-owner, Founder: March 2020 - August 2022</strong></li>
-            <li>Primary focus is on event planning and boat rentals</li>
-            <li>Responsible for all aspects of the business.</li>
-        </ul>
-        <p>Mattress Firm</p>
-        <ul>
-            <li><strong>Store Manager, Salesperson: July 2020 - September 2022</strong></li>
-            <li>Million Dollar Writer</li>
-            <li>Managed team for the largest Mattress Firm in Texas.</li>
-        </ul>
+        <iframe className="resumePdf" src="https://drive.google.com/file/d/1R18wZ4xMM0iE6pSmpT5pIjGCe3Ar8ORJ/preview" width="80%" height="1000px" allow="autoplay"></iframe>
     </section>
 
     </div>

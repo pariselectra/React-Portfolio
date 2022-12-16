@@ -368,3 +368,8 @@ button {
   border: solid 4px #7d9b76;
   left: 2%;
 }
+
+.resumePdf {
+  position: relative;
+  left: 10%;
+}
