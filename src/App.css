@@ -196,12 +196,12 @@ button {
 
 .about-me-format {
   /* display: flex; */
-  order: 1;
   float: left;
   flex-wrap: wrap;
   background-color: transparent;
   position: relative;
   display: flex;
+  width: 70%;
 }
 
 .workimg {
