@@ -430,10 +430,10 @@ button {
     padding-top: 4px;
   }
   .feature-flip-card:hover .feature-flip-card-inner {
-    display: none;
+    transform: none;
   }
   .flip-card:hover .flip-card-inner {
-    display: none;
+    transform: none;
   }
   .smallProfile {
     background-image: url("small-profile.png");
