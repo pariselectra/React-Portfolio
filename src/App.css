@@ -444,4 +444,7 @@ button {
     height: 150px;
     position: absolute;
   }
+  h6 {
+    margin-left: 40px;
+  }
 }
