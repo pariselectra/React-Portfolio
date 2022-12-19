@@ -8,9 +8,12 @@ ul {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 4vw;
   margin-left: 18px;
   color: #272727;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h2 {
@@ -23,15 +26,15 @@ h2 {
 
 h4 {
   margin-left: 18px;
-  font-size: 20px;
+  font-size: 1.5vw;
   color: #272727;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.3vw;
   font-weight: 3px;
   margin-left: 15px;
-  margin-right: 10%;
+  margin-right: 30%;
   position: flex;
   flex-wrap: wrap;
   color: #272727;
@@ -74,6 +77,7 @@ button {
   background-color: #00072B;
   padding: 15px;
   margin: auto;
+  
 }
 
 .navmargin {
@@ -115,19 +119,21 @@ button {
 }
 
 .container {
-  position: flex;
+  
 }
 
 .outterContainer{
+  display: flex;
   background-color: #f6f6e9;
   color: #f6f6e9;
   width: 400px;
-  height: 400px;
+  height: 406px;
   border-radius: 20px;
   z-index: 1;
   position: absolute;
   right: 20px;
 }
+
 .smallerContainer{
   background-color: #7d9b76;
   color: #7d9b76;
@@ -165,7 +171,7 @@ button {
 .background-img {
   background-color: #cbddd1;
   display: flex;
-  background-size: contain;
+  flex-wrap: wrap;
 }
 
 .profileimg {
@@ -190,8 +196,12 @@ button {
 
 .about-me-format {
   /* display: flex; */
+  order: 1;
   float: left;
+  flex-wrap: wrap;
   background-color: transparent;
+  position: relative;
+  display: flex;
 }
 
 .workimg {
@@ -372,4 +382,6 @@ button {
 .resumePdf {
   position: relative;
   left: 10%;
+  height: 75vw;
+  border: 10px #00072B solid;
 }

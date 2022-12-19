@@ -33,7 +33,6 @@ function App() {
     </nav>
 
     <div class="background-img">
-        
         <section class="about-me-format">
             <div>
             <h2 id="aboutme">About Me</h2>
@@ -50,6 +49,7 @@ function App() {
             Sales and Management Background.
             </p>
         </section>
+
         <div className="container">
             <h3 className="outterContainer">container</h3>
             <h3 className="smallerContainer">container</h3>
@@ -267,7 +267,7 @@ function App() {
 
     <section>
         <h2 id="resume">Resume</h2>
-        <iframe className="resumePdf" src="https://drive.google.com/file/d/1R18wZ4xMM0iE6pSmpT5pIjGCe3Ar8ORJ/preview" width="80%" height="1000px" allow="autoplay"></iframe>
+        <iframe className="resumePdf" src="https://drive.google.com/file/d/1R18wZ4xMM0iE6pSmpT5pIjGCe3Ar8ORJ/preview" width="80%" allow="autoplay"></iframe>
     </section>
 
     </div>
