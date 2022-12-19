@@ -56,6 +56,8 @@ function App() {
             <img className="profileimg" src={knockoutimage} alt="profile"></img>
             <h3 className="line">c</h3>
             <h3 className="littleline"></h3>
+        </div>
+        <div className="smallProfile">
         </div>  
     </div>
 

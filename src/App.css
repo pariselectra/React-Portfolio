@@ -397,12 +397,13 @@ button {
 
 @media only screen and (max-width: 750px) {
   .outterContainer {
-    width: 100px;
+    display: none;
+    /* width: 100px;
     height: 100px;
     color: #7d9b76;
     background-color: #7d9b76;
     margin-right: -20px;
-    margin-top: 50px;
+    margin-top: 50px; */
   }
   .smallerContainer {
     display: none;
@@ -414,10 +415,11 @@ button {
     display: none;
   }
   .profileimg {
-    width: 60px;
+    display: none;
+    /* width: 60px;
     height: 80px;
     margin-top: 5px;
-    margin-right: -65px;
+    margin-right: -65px; */
   }
   .navUl {
     padding: 1px;
@@ -432,5 +434,14 @@ button {
   }
   .flip-card:hover .flip-card-inner {
     display: none;
+  }
+  .smallProfile {
+    background-image: url("small-profile.png");
+    background-size: cover;
+    margin-top: 50px;
+    right: 10px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
   }
 }
