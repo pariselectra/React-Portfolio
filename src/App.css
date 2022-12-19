@@ -430,4 +430,7 @@ button {
   .feature-flip-card:hover .feature-flip-card-inner {
     display: none;
   }
+  .flip-card:hover .flip-card-inner {
+    display: none;
+  }
 }
