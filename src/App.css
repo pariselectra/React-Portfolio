@@ -318,6 +318,7 @@ button {
   display: inline-flex;
   border: solid #00072B 4px;
   box-shadow: 5px 10px 8px #00072B;
+  z-index: 10;
 }
 
 .featurePosition {
@@ -333,6 +334,7 @@ button {
   margin-bottom: 12px;
   padding: 10px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  z-index: 10;
 }
 
 /* This container is needed to position the front and back side */
@@ -384,4 +386,35 @@ button {
   left: 10%;
   height: 75vw;
   border: 10px #00072B solid;
+}
+
+/* FORMAT SCREENS */
+@media only screen and (max-width: 600px) {
+  .navUl {
+    font-size: xx-small;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .outterContainer {
+    width: 200px;
+    height: 200px;
+    color: #7d9b76;
+    background-color: #7d9b76;
+  }
+  .smallerContainer {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .littleline {
+    display: none;
+  }
+  .profileimg {
+    width: 160px;
+    height: 200px;
+    margin-top: -45px;
+    margin-right: -50px;
+  }
 }
