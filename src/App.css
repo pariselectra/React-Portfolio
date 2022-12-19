@@ -397,10 +397,12 @@ button {
 
 @media only screen and (max-width: 750px) {
   .outterContainer {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     color: #7d9b76;
     background-color: #7d9b76;
+    margin-right: -20px;
+    margin-top: 50px;
   }
   .smallerContainer {
     display: none;
@@ -412,9 +414,17 @@ button {
     display: none;
   }
   .profileimg {
-    width: 160px;
-    height: 200px;
-    margin-top: -45px;
-    margin-right: -50px;
+    width: 60px;
+    height: 80px;
+    margin-top: 5px;
+    margin-right: -65px;
+  }
+  .navUl {
+    padding: 1px;
+  }
+  .navmargin {
+    margin: 10px;
+    height: 15px;
+    padding-top: 4px;
   }
 }
