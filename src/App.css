@@ -427,4 +427,7 @@ button {
     height: 15px;
     padding-top: 4px;
   }
+  .feature-flip-card:hover .feature-flip-card-inner {
+    display: none;
+  }
 }
